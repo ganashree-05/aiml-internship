@@ -1,0 +1,11 @@
+dict ={"id":1,"name":"Ganashree","age":21,"college":"kssem"}
+print(dict["id"])
+print(dict["name"])
+print(dict["age"])
+print(dict.update({"college":"ksit"}))
+print(dict)
+print(dict.popitem())
+print(dict)
+print(list(dict.keys()),list(dict.values()))
+print(dict.pop("age"))
+print(dict)
